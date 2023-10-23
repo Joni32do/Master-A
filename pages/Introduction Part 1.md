@@ -1,0 +1,39 @@
+## Material
+	- Muskel
+	- Knochen
+	- Gelenke
+	- Gefäße
+	- Transplantate
+-
+- ## Methoden
+	- Kontinuumsmechanik nur begrenzt, da sehr komplex
+		- Forward/Backward Euler, RK, Multi-Grid
+	- Modellierung mithilfe von Feder-Dämpfer Kombinationen
+	- #### Optimierung
+		- Löser wählen -> oft invertieren zB LR-Zerlegung
+-
+- ## Biosignals
+	- EMG
+		- **elektromyographische** Untersuchung dient der Messung elektrischer Aktivität
+	- EKG
+		- **Elektrokardiogramm**. Mit dieser Untersuchung können Herzströme gemessen werden
+		- Welle P QRS T Welle
+	- ENG
+		- Bei einer **Elektroneurografie** (ENG) wird die Leitfähigkeit der Nerven untersucht
+	- EEG
+		- **Elektroenzephalogramm** Signale am Gehirn
+-
+- ### Herz Folie 5
+	- Kubische Hermitsche Ansatz-Funktionen
+- ### ENG Folie 6
+	- Bsp. Ermöglicht Reiz-Ansteuerung von Zehenspitze
+- ### EMG Folie 8
+	- Oberflächen
+		- Aufkleben
+	- Invasive
+		- Mehrere Sensoren pro Nadeln
+	- Beispiel Folie 12
+	- #### High denisty EMG
+- ### EEG Folie 14
+	- Squids
+-

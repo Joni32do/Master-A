@@ -1,0 +1,60 @@
+## Physiologie von Skelettmuskulatur
+- ### Struktur eines Muskels
+	- ![Muskeln - Anatomie | Gesundheitsportal](https://www.gesundheit.gv.at/dam/jcr:8c17e779-0ec3-4ce2-a26f-5cf5c2edfc61/Skelettmuskel_Aufbau_V2_110864012.jpeg){:height 363, :width 445}
+	- *Skizze von Ihm: Motorneuron, Nerv, Muskelfasern*
+	- Muskeln bestehen aus mehreren Fasern, die von verschiedenen Motorneuronen angeregt werden können
+		- Die **Motorneuronen** befinden sich im Rückenmark und sind über Nerven mit den Muskelfasern verbunden.
+		- zusammen mit den Muskelfasern, die es aktiviert bilden eine *sogenannte* motorische Einheit
+		- Anzahl MUs pro Muskel variiert zwischen 100 und 1000
+	- Die Schnittstelle zwischen **Nerv** und **Muskelfaser** ist die **neuromuskuläre Endplatte**
+	- Die **Fasern eines Skelettmuskels** sind zwar mechanisch gekoppelt, aber aus elektrophysiologischer Sicht unabhängig von einander
+	- Nach einer Stimulation, d.h. wenn ein von Motorneuronen ausgehendes Aktionspotential die Neuromuskuläre Endplatte erreicht, treten eine Reihe von chemischen Reaktionen an der Zellmembran der Muskelfaser auf, die zu einem **bioelektrischen Signal** führen
+- ### Elektrische Aktivität eines Muskels
+	- Wichtig für die Entstehung des bioelektrischen Potentials sind die **Zellmembran der Muskelfaser** (Sarkolemm) mit ihren Ionenkanälen und die Konzepte von Entstehung und Ausbreitung
+	- #### Sarkolemm
+		- Die Zellmembran ist eine Lipid-Doppelschicht, dessen hydrophobe, lipide Enden sich gegenüberstehen, während die hydrophilen, kugelförmigen Köpfe nach außen zeigen
+		- ![Zellmembran](https://www.studymed.at/frontend/main/getfile/id/4c98cc32806e8472cc32297ab51d9aab11019334){:height 461, :width 719}
+		- *Skizze von ihm: Nerv, Neuromuskul're Endplatte, extra/intra- zellulärer Raum, Ionenkanal*
+		- **Aufgabe der Zellmembran** ist es, den freien Fluss von Ionen zu verhindern, dies geschieht durch ihre sogenannte **selektive Permeabilität**
+			- d.h. Wassermoleküle und bestimmte Ionen können lediglich unter bestimmten Bedingungen durch bestimmte Poren (Ionenkanäle) in der Membran gelangen
+		- **Ionen**, die für die bioelektrische Aktivität verantwortlich sind, sind:
+			- $\text{Na}^+$ - Natrium
+			- $\text{K}^+$ - Kalium
+			- $\text{Cl}^-$ - Chlor
+			-
+		- ##### Endplatte
+		- ![Motorische Endplatte • einfach erklärt, Aufbau · [mit Video]](https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2021/03/WP_Bilder_Motorische_Endplatte_1-1024x576.jpg)
+		-
+	- #### Ionenkanäle
+		- Ein Ionenkanal kann sowohl offen als auch geschlossen oder inaktiv sein. Ist der Muskel entspannt, sind die Ionenkanäle geschlossen, während eine Stimulation das öffnen der Kanäle bewirkt
+		- Jeder Ionenkanal lässt nur eine Art Ion oder Molekül passieren
+			- Lüge
+		- Es existieren Ionenkanäle, die wie eine Pumpe arbeiten und welche, die als Schleusentor fungieren
+		- ![Natrium-Kalium-Pumpe](https://www.biologie-schule.de/img/natriumkaliumpumpe.gif)
+		- *Na raus, K rein, Konzentrationsgradient, elektrischer Gradient*
+		- Durch die Ionenflüsse entsteht eine Potentialdifferenz zwischen den extra- und intrazellulären Raum
+			- Das intrazelluläre Potential ist negativ $(\phi_i)$
+			- das extrazelluläre Potential ist positiv $(\phi_e)$
+			- Das Transmembranpotential $V_m = -70 \text{mV}$ (Ruhepotential)
+	- #### Aktionspotential
+		- _Definition_: Unter Aktionspotential (AP) versteht man eine **vorübergehende charakteristische Abweichung** des Transmembranpotentials vom Ruhepotential, hervorgerufen durch ein chemisches Ungleichgewicht als Reaktion auf eine Stimmulation
+		- ![Aktionspotential • Ablauf und Potentialverlauf · [mit Video]](https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2021/03/neu_Aktionspotential_WP-Bilder-1024x576.jpg)
+		- ![Aktionspotential • Ablauf und Potentialverlauf · [mit Video]](https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2021/03/neu_Aktionspotential-Phasen_WP-Bilder-1024x576.jpg){:height 412, :width 719}
+		- Keine eindeutige Nomenklatur
+		- Form, Amplitude (ca. 100 mV) und Dauer (ca. 4-6 ms) eines Aktionspotentials sind durch die Dynamik der Ionenkanäle bestimmt
+		- Die vorherige Abbildung beschreiben die Vorgänge in einem kleinen Ausschnitt der Zellmembran einer Muskelfaser (-> Zellmodel)
+		- Die Ausbreitung des Aktionspotentials von einem kleinen Ausschnitt über die gesamte Faser wird häufig durch sogenannte Strömungs-Tripole repräsentiert:
+		- #### Skizze Nervenweiterleitung Wirbel + - +
+		- Die Ströme, die aus der stimulierten Zelle hinaus in die benachbarten Regionen fließen, fungieren als **Stimulus** für diese benachbarten Regionen. Dadurch entsteht rechts und links vom stimulierten Gebiet ebenfalls ein Aktionspotential. Diese Ausbreitung des Aktionspotentials wird mit wandernden Tripolen beschrieben
+		- ![Nervenweiterleitung](./assets/aktionspotential.png){:height 336, :width 653}
+		-
+	- ### Elektromyografie (EMG) Signale
+		- #### Entstehung von EMG Signalen
+			- Bisher haben wir lediglich das Transmembranpotential entlang einer einzelnen Faser beschrieben. Dies wird **Muskelfaseraktionspotential** (MFAP) genannt.
+			- Das auf der Hautoberfläche gemessene EMG Signal zeigt allerdings nicht einfach nur dieses MFAP. Jede Faser des Muskels gehört einer motorischen Einheit an
+				- Jedes MFAP trägt zu den Aktionspotential motorischer Einheiten bei (MUAP)
+				- Die Überlagerung (Superposition) aller MUAPs generiert das interferentielle **Elektromyografie** (EMG) Signal
+		- #### Messung von EMG Signalen
+			- Die Messung kann auf zwei Arten durchgeführt werden
+				- logseq.order-list-type:: number
+		-

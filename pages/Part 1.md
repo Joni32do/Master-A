@@ -1,0 +1,9 @@
+- ![Introduction Part 1](C:\Users\jonat\OneDrive - bwedu\stud\master\2\A\Slides\00_Introduction\Part1-FIrst-Lecture-SimTech-MasterA-Roehrle.pdf)
+-
+- ## Prüfung
+- Mündlich - Ende des Semesters
+-
+- ## Vorlesung
+- [[Introduction Part 1]]
+- [[Physiologische Grundlagen]]
+-

@@ -1,0 +1,17 @@
+## Organisation
+- Einer der Termine Übung
+- Timo Koch (Oslo) und Martin Schneider
+- Folien (z.T annotiert), Skript, Python Code
+- ## Bio fluid mechanic
+- Bsp.
+	- Blut
+	- Lymph
+- Kleinere Arterien, Venen und Kapillaren
+- ### Probleme
+	- Viele Gleichungen
+	- Nicht - Linear
+- ### Methoden
+	- Verschiedenes zum
+-
+- # Prüfung
+- Prüfung zu zweit
