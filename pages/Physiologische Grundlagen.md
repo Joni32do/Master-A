@@ -56,5 +56,36 @@
 				- Die Überlagerung (Superposition) aller MUAPs generiert das interferentielle **Elektromyografie** (EMG) Signal
 		- #### Messung von EMG Signalen
 			- Die Messung kann auf zwei Arten durchgeführt werden
-				- logseq.order-list-type:: number
+				- **intramuskuläres EMG:**
+				  logseq.order-list-type:: number
+					- Eine **Nadelelektrode** wird am zu untersuchenden Muskel eingeführt, mit der das bioelektrische Potential im Muskel oder direkt auf der Oberfläche des Muskels gemessen wird.
+					  logseq.order-list-type:: number
+				- **Oberflächen EMG**
+				  logseq.order-list-type:: number
+					- Auf der Haut über den Muskelbauch wird ein **Elektrodenarray** aufgebracht, welches die Muskelaktivität mit einem gewissen Abstand zum Muskel aufnimmt.
+					  logseq.order-list-type:: number
+					- Hier sind die Eigenschaften des den Muskel und die Oberfläche trennenden Gewebes (Fett und Haut) wichtig
+					  logseq.order-list-type:: number
+					- Dieses Gewebe verhällt sich wie ein Volumenleiter, der das MFAP an die Oberfläche transportiert
+					  logseq.order-list-type:: number
+			- Je nach Methode befinden sich die gemessenen EMG Signal in einem Bereich zwischen $50 \mu V$ und $30 \mu V$
+		- #### (i) 1D EMG Signal
+			- ##### Einkanal EMG Signal
+				- einzelnes Elektrodenpaar
+				- Messung an einem bestimmten Punkt gegen ein entferntes Refernzpotential (meist 0)
+				- Messung über eine bestimmte Zeitspanne
+				- **Wirwarr Signal $V_m$ über Zeit**
+				- Den Betrag des gemessenen Potentials nennt man gleichgerichtetes EMG Signal
+			- #### Multikanal EMG Signal
+				- lineares Elektrodenarray bestehend aus $n$ Elektroden entlang der Muskelfaserrichtung auf der Hautoberfläche angebracht.
+				- Möglichkeit $n$ monopolare oder $(n-1)$ differentielle/bipolare EMG Signale aufzunehmen
+				- man erhält die Potentialverteilung über die Zeit in einem 1D-Raum
+				- **Plot von mehreren Signalen übereinander**
+		- #### (ii) 2D Oberflächen EMG Signal
+			- Erweiterung des linearen Elektrodenarrays zu einem 2D Elektrodengitter
+		- #### (iii) Probleme bei der EMG Messung
+			- Die Position der Elektroden beeinflusst das EMG Signal
+			- (Stör-)Geräusche beeinflussen das EMG
+			- Nebensignaleeffekte (cross talk)
+			- Eigenschaften des Volumenleiters
 		-
