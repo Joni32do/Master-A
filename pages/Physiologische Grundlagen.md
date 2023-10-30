@@ -1,5 +1,5 @@
-## Physiologie von Skelettmuskulatur
-- ### Struktur eines Muskels
+# Physiologie von Skelettmuskulatur
+- ## Struktur eines Muskels
 	- ![Muskeln - Anatomie | Gesundheitsportal](https://www.gesundheit.gv.at/dam/jcr:8c17e779-0ec3-4ce2-a26f-5cf5c2edfc61/Skelettmuskel_Aufbau_V2_110864012.jpeg){:height 363, :width 445}
 	- *Skizze von Ihm: Motorneuron, Nerv, Muskelfasern*
 	- Muskeln bestehen aus mehreren Fasern, die von verschiedenen Motorneuronen angeregt werden können
@@ -9,11 +9,13 @@
 	- Die Schnittstelle zwischen **Nerv** und **Muskelfaser** ist die **neuromuskuläre Endplatte**
 	- Die **Fasern eines Skelettmuskels** sind zwar mechanisch gekoppelt, aber aus elektrophysiologischer Sicht unabhängig von einander
 	- Nach einer Stimulation, d.h. wenn ein von Motorneuronen ausgehendes Aktionspotential die Neuromuskuläre Endplatte erreicht, treten eine Reihe von chemischen Reaktionen an der Zellmembran der Muskelfaser auf, die zu einem **bioelektrischen Signal** führen
-- ### Elektrische Aktivität eines Muskels
+- ## 2 Elektrische Aktivität eines Muskels
 	- Wichtig für die Entstehung des bioelektrischen Potentials sind die **Zellmembran der Muskelfaser** (Sarkolemm) mit ihren Ionenkanälen und die Konzepte von Entstehung und Ausbreitung
-	- #### Sarkolemm
+	- ### 2.1 Sarkolemm
 		- Die Zellmembran ist eine Lipid-Doppelschicht, dessen hydrophobe, lipide Enden sich gegenüberstehen, während die hydrophilen, kugelförmigen Köpfe nach außen zeigen
-		- ![Zellmembran](https://www.studymed.at/frontend/main/getfile/id/4c98cc32806e8472cc32297ab51d9aab11019334){:height 461, :width 719}
+		- ![image.png](../assets/image_1698638617468_0.png)
+		-
+		-
 		- *Skizze von ihm: Nerv, Neuromuskul're Endplatte, extra/intra- zellulärer Raum, Ionenkanal*
 		- **Aufgabe der Zellmembran** ist es, den freien Fluss von Ionen zu verhindern, dies geschieht durch ihre sogenannte **selektive Permeabilität**
 			- d.h. Wassermoleküle und bestimmte Ionen können lediglich unter bestimmten Bedingungen durch bestimmte Poren (Ionenkanäle) in der Membran gelangen
@@ -23,9 +25,10 @@
 			- $\text{Cl}^-$ - Chlor
 			-
 		- ##### Endplatte
-		- ![Motorische Endplatte • einfach erklärt, Aufbau · [mit Video]](https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2021/03/WP_Bilder_Motorische_Endplatte_1-1024x576.jpg)
+		- ![image.png](../assets/image_1698638645090_0.png)
 		-
-	- #### Ionenkanäle
+		-
+	- ### 2.2 Ionenkanäle
 		- Ein Ionenkanal kann sowohl offen als auch geschlossen oder inaktiv sein. Ist der Muskel entspannt, sind die Ionenkanäle geschlossen, während eine Stimulation das öffnen der Kanäle bewirkt
 		- Jeder Ionenkanal lässt nur eine Art Ion oder Molekül passieren
 			- Lüge
@@ -36,7 +39,7 @@
 			- Das intrazelluläre Potential ist negativ $(\phi_i)$
 			- das extrazelluläre Potential ist positiv $(\phi_e)$
 			- Das Transmembranpotential $V_m = -70 \text{mV}$ (Ruhepotential)
-	- #### Aktionspotential
+	- ### 2.3 Aktionspotential
 		- _Definition_: Unter Aktionspotential (AP) versteht man eine **vorübergehende charakteristische Abweichung** des Transmembranpotentials vom Ruhepotential, hervorgerufen durch ein chemisches Ungleichgewicht als Reaktion auf eine Stimmulation
 		- ![Aktionspotential • Ablauf und Potentialverlauf · [mit Video]](https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2021/03/neu_Aktionspotential_WP-Bilder-1024x576.jpg)
 		- ![Aktionspotential • Ablauf und Potentialverlauf · [mit Video]](https://d1g9li960vagp7.cloudfront.net/wp-content/uploads/2021/03/neu_Aktionspotential-Phasen_WP-Bilder-1024x576.jpg){:height 412, :width 719}
@@ -48,7 +51,7 @@
 		- Die Ströme, die aus der stimulierten Zelle hinaus in die benachbarten Regionen fließen, fungieren als **Stimulus** für diese benachbarten Regionen. Dadurch entsteht rechts und links vom stimulierten Gebiet ebenfalls ein Aktionspotential. Diese Ausbreitung des Aktionspotentials wird mit wandernden Tripolen beschrieben
 		- ![Nervenweiterleitung](./assets/aktionspotential.png){:height 336, :width 653}
 		-
-	- ### Elektromyografie (EMG) Signale
+	- ### 2.4 Elektromyografie (EMG) Signale
 		- #### Entstehung von EMG Signalen
 			- Bisher haben wir lediglich das Transmembranpotential entlang einer einzelnen Faser beschrieben. Dies wird **Muskelfaseraktionspotential** (MFAP) genannt.
 			- Das auf der Hautoberfläche gemessene EMG Signal zeigt allerdings nicht einfach nur dieses MFAP. Jede Faser des Muskels gehört einer motorischen Einheit an
@@ -89,17 +92,24 @@
 			- Nebensignaleeffekte (cross talk)
 			- Eigenschaften des Volumenleiters
 		-
-		-
 	- Die Änderung des Potential durch die Applizierung von elektrischen Strom $I_e$ kann mithilfe des Membranwiderstandes $R_m$ verschrieben werden
 		- $$ V_m = R_m \cdot I_e$$
-	- ## Muskelfasermodell
-	-
+- # 3 Muskelfasermodell
+	- **Zellmodell**: Entstehung des Aktionspotentials einer einzelnen Muskelfaserzelle
+	- **Bidomain Modell**: Ausbreitung des elektrischen Signals in beliebigem Raum (3D Kontinuumsmodell)
+	- ## 3.1 Zellmodell
+		- Zur mathematischen Modellierung der Zelle, wird diese als elektrischer Schaltkreis betrachtet:
+			- Die Kapazität der Zellmembran verzögert dabei die Ausbreitung des Signals
+			- Unter der Annahme, dass die Kapazität konstant ist, kann die Überschussladung mit in Verbindung gebracht werden über: 
+			  $Q = C_m V_m, \quad [C_m] = \frac{C}{V}$
+			- $\frac{dQ}{dt} = C_m \frac{d V_m}{dt}$
+			- Die Änderung des Potentials durch die Applizierung von elektrischem Strom $I_e$ kann mithilfe des Membranwiderstands beschrieben werden
 	- Bem:
 		- Sowohl $C_m$ als auch $R_m$ sind abhängig von der Größe der Overfläche der Zellmembran $A_m$:
 			- spezifische Membrankapazität: $c_m = \frac{C_m}{A_m}$
 			- spezifischer Membranwiderstand: $r_m = \frac{R_m}{A_m}$
 			- Die Membranzeitkonstante $\tau_m = \frac{R_m \cdot C_m}{(\text{vlt.}A_m^2)} = r_m \cdot c_m$ definiert die Zeitskala für Änderungen des Membranpotentials (10 - 100 ms)
-		- ### Nernst Gleichung
+		- ### 3.1.1 Nernst Gleichung
 			- In biologischen Systemen trennen Zellmembranen Bereiche unterschiedlicher Ionenkonzentrationen. Ist die Membran für ein bestimmtes Ion selektiv permeabel, wird es entlang des Konzentrationsgradient diffundieren, gleizeitig entsteht aber, da das Ion geladen ist, eine Spannung (Ruhemembranpotential)
 			- Mit der Nernst-Gleichung lässt sich die Gleichgewichtslage dieses Vorgangs beschreiben
 				- $$ E_i = \frac{v_T}{z} \ln \left( \frac{[\text{outside}_i]}{[\text{inside}_i]} \right)$$
@@ -110,7 +120,7 @@
 			- Das Nernst-Potential beschreibt das Potential, welches notwendig ist, damit ein geladenes Ion die Membran überwindet
 			- Im **thermodynamischen Gleichgewicht**:
 				- $$ \text{Membranpotential} = \text{Nernstpotential aller individuellen Ionen}$$
-		- ### Membranstrom
+		- ### 3.1.2 Membranstrom
 			- Der Membranstrom $I_{\text{Ion}}$ ist definiert als die Summe aller durch die Ionenkanäle fließender Ströme:
 			- id:: 653898ce-0f97-4f19-a2b5-c940e0e4de69
 			  $$ I_{\text{Ion}} = I_{\text{Na}^+} + I_{\text{K}^+} + I_{\text{L}} = \sum_i I_i$$
@@ -120,19 +130,19 @@
 				- Die Leitfähigkeit eines Ionenkanals (Schleusenvariable) ist abhängig von der Menbranspannung. D.h., Änderung der Leitfähigkeit mit der Zeit führen zu komplexer, nichtlinearer Dynamik
 			- Ionenkanäle, die als Pumpen fungieren, sind meist weniger effizient und die Ströme werden unter einem sogenannten Verluststrom $I_L$ zusammengefasst. Meist ist ihre **Leitfähigkeit** konstant
 			- $$ I_L = \bar{g}_L \cdot (V_m - E_L)$$
-		- ### Hodgkin-Huxley Modell
+		- ### 3.1.3 Hodgkin-Huxley Modell
 			- Hodgkin und Huxley haben 1952 Experimente an dem Riesenaxon eines Tintenfisch durchgeführt -> Nobelpreis
 				- Die Zellmembran wurde als Schaltkreis beschrieben
 				- ![Hudgkin Schaltkreis](./assets/Hodgkin.png){:height 322, :width 406}
-			- (*Notizen: $I_p$ durch $\phi_i$ und $\phi_e$
+			- (*Notizen:* $I_p$ durch $\phi_i$ und $\phi_e$ )
 			- Die Änderungsrate des Transmembranpotentials ist proportional zu der Rate mit der sich im Extrazellulären Raum aufbaut (Strom, der in die Zelle eintritt)
 				- -> Kapazität ist umgefähr Konstant
 			- $$ \begin{align} \text{Hinenfließender Strom} &= \text{Membranstrom} + \text{externer Strom einer Elektrode} \\
 			  c_m \frac{\partial V_m}{\partial t} &= -I_{\text{Ion}} + \frac{I_{\text{ext}}}{A} \end{align}$$
-			- #### Leitfähigkeit des Kaliumkanals
+			- #### i) Leitfähigkeit des Kaliumkanals
 				- $$g_{\text{K}^+}(V_m, t) = \bar{g}_{\text{K}^+} n(V_m)^4$$
 				- $\bar{g}_{\text{K}^+}$ konstante Schleusenvariable
-				- $n$ Wahrscheinlichkeit, dass Ionenkanal offen ist
+				- $n$ **Wahrscheinlichkeit**, dass Ionenkanal offen ist
 					- $$ \frac{\partial n}{\partial t} = \frac{n_{\infty} - n}{\tau_n}$$
 						- $n_{\infty}$ Wert im stationären Zustand
 						- $\tau_n$ Zeitkonstante mit der $n$ auf Änderungen von $V_m$ reagiert
@@ -145,12 +155,12 @@
 						  graph LR;
 						  A[offen n]<-->B[geschlossen 1-n];
 						  ```
-							- $$ \frac{\partial n(V_m)}{\partial t} = \alpha(V_m) \cdot (1 - n(V_m) -\beta(V_m) \cdot n(V_m) $$
+							- $$ \frac{\partial n(V_m)}{\partial t} = \alpha(V_m) \cdot (1 - n(V_m))-\beta(V_m) \cdot n(V_m) $$
 							- Gleichgewichtszustand: $$\frac{\partial n}{\partial t} = 0$$
 								- $$\begin{align}
 								  0 &= \alpha \cdot (1 - n_\infty) - \beta \cdot n_\infty \\
 								  &= \alpha - \alpha n_\infty - \beta n_\infty \\ \end{align}$$
-								- Somit $n_\infty$ HIER FEHLT NOCH WAS
+								- Somit $n_{\infty} = \frac{\alpha}{\alpha + \beta}$
 							- Weiter gilt:
 								- $$\begin{align}
 								  \frac{\partial n}{\partial t} &= (\alpha + \beta) \left[ \frac{\alpha}{\alpha + \beta} \cdot (1-n) \frac{\beta}{\alpha + \beta} \right] \\
@@ -158,7 +168,7 @@
 								  \end{align}$$
 							- Bemerkung
 								- Sollte $\alpha + \beta$ groß sein, dann ist die Zeitkonstante klein und $n$ nährt sich $n_\infty$ rasch an
-			- ### Leitfähigkeit des Natriumkanals
+			- ### ii) Leitfähigkeit des Natriumkanals
 				- Ähnlich wie beim Kalium:
 					- $$g_{\text{Na}^+}(V_m, t) = \bar{g}_{\text{Na}^+} m(V_m)^3 h(V_m, t)$$
 					- mit
@@ -178,35 +188,101 @@
 						- $$E_i, I_{\text{ext}}, A, c_m, m_\infty, n_\infty, h_\infty, \tau_m, \tau_n, \tau_h$$
 					- ODE
 						- $$\dot{y}(t) = f(y(t), t)$$
-		- ### Biodomain Modell
-			- *Skizze: In Körper, Membran zwischen extr- und intra Zellulärer Raum*
-			- $\phi_e$, $\phi_i$, $\sigma_e$, $\sigma_i$ und Strom $I_m$, Aussen $\phi_o$ und $\sigma_o$
-			- Das Muskelgewebe wird mithilfe folgender Annahme modelliert:
-				- Zwei sich gegenseitig durchdringende Gebiete, die lediglich durch eine semi-permeable Membran getrennt sind, repräsentieren:
+	- ## 3.2 Biodomain Modell
+		- ### 3.2.1 Modellannahme
+		- *Skizze: In Körper, Membran zwischen extr- und intra Zellulärer Raum*
+		- $\phi_e$, $\phi_i$, $\sigma_e$, $\sigma_i$ und Strom $I_m$, Aussen $\phi_o$ und $\sigma_o$
+		- Das Muskelgewebe wird mithilfe folgenden 6 Annahme modelliert:
+			- Zwei sich gegenseitig durchdringende Gebiete, die lediglich durch eine semi-permeable Membran getrennt sind, repräsentieren:
+			  logseq.order-list-type:: number
+				- die Muskelfaserzellen (intrazellulärer Raum, Index $i$)
 				  logseq.order-list-type:: number
-					- die Muskelfaserzellen (intrazellulärer Raum, Index $i$)
-					  logseq.order-list-type:: number
-					- die Umgebung (extrazellulärer Raum, Index $e$)
-					  logseq.order-list-type:: number
-				- Ein dritter Gebiet welches zum Beispiel das den Muskel umbegende Gewebe beschreibt, z.B. Fett & Haut, kann zuätzlich eingeführt werden, Index $o$
+				- die Umgebung (extrazellulärer Raum, Index $e$)
 				  logseq.order-list-type:: number
-				- Intra- und extrazellulärer Raum nehmen den selben physikalischen Raum ein. Das dritte Gebiet wird als benachbarter Raum definiert.
+			- Ein dritter Gebiet welches zum Beispiel das den Muskel umbegende Gewebe beschreibt, z.B. Fett & Haut, kann zuätzlich eingeführt werden, Index $o$
+			  logseq.order-list-type:: number
+			- Intra- und extrazellulärer Raum nehmen den selben physikalischen Raum ein. Das dritte Gebiet wird als benachbarter Raum definiert.
+			  logseq.order-list-type:: number
+			- Jedes Gebiet hat seinen eigenen Konduktivitätstensor $\mathbf{\sigma}. Es gibt also $\mathbf{\sigma_i}, \mathbf{\sigma_e}, \mathbf{\sigma_o}$ und $\phi_i$, $\phi_e$, $\phi_o$
+			  logseq.order-list-type:: number
+			- Folgende zwei Stromflüsse sind erlaubt
+			  logseq.order-list-type:: number
+				- Transmembranströmung $I_m$ über die Membran zwischen intra- und extrazellulären Raum, in beide Richtungen
 				  logseq.order-list-type:: number
-				- Jedes Gebiet hat seinen eigenen Konduktivitätstensor $\mathbf{\sigma}. Es gibt also $\mathbf{\sigma_i}, \mathbf{\sigma_e}, \mathbf{\sigma_o}$ und $\phi_i$, $\phi_e$, $\phi_o$
+				- Das außen liegende Gebiet nimmt unter normalen Bedingungen Strom $(I_body)$ aus dem extrazellulären Gebiet auf.
 				  logseq.order-list-type:: number
-				- Folgende zwei Stromflüsse sind erlaubt
+			- Kein Stromfluss zwischen interzellulärem Raum und dem Körper
+			  logseq.order-list-type:: number
+		- ### 3.2.2 Herleitung der Biodomain Gleichung
+			- Die Biodomain Gleichungen sind ein System von zwei Gleichungen
+				- Die 1. Gleichung ist eine nichtlinear **Reaktionsdiffusionsgleichung**, die für das Transmembranpotential $V_m$ gelöst wird
+					- Der nichtlineare Aktionsterm ergibt sich aus der Summe der Ionenströme durch die Membran
+				- Die 2. Gleichung beschreibt das **extrazelluläre Potential** $\phi_e$, welches aus gegebenem $V_m$ resultiert.
+					- Verschieden Lösungsverfahren, parabolisch und nicht, wenn mit gleichem Löser dann wird das eklig
+- ## VL -30.10
+	- Wdh. Biodomain Modell
+	- ![Biodomain](../assets/biodomain.jpg)
+	- $V_m = \phi_i - \phi_e$
+	- #### Ohmsche Gesetz
+		- $$ J = \sigma E = \frac{E}{R}$$
+		- mit $J$ Stromdichte, $E$ elektrische Feldstärke, $\sigma$ Konduktivität
+	- #### Annahmen
+		- quasistatische Bedingungen, kann die elektrische Feldstärke $E$ durch den negativen Gradienten des Potentialfeldes $\phi$ ausgedrückt werden:
+			- $$ E = - \nabla \phi$$
+		- Einsetzen dieser Gleichung in das Ohmsche Gesetz ergibt für den intra- und extrazellulären Raum
+			- $$\begin{align*}
+			  J_i &= -\sigma_i \nabla \phi_i \\
+			  J_e &= - \sigma_e \nabla \phi_e
+			  \end{align*}$$
+		- Die Änderung der Stromdichte in jedem der Gebiete muss den gleichen Betrag, aber mit entgegengesetztem Vorzeichen haben
+		- $$ - \nabla J_i = \nabla J_e \Leftrightarrow \nabla\cdot [\sigma_i \nabla \phi_i] = -\nabla \cdot [\sigma_e \nabla \phi_e]$$
+		- Um das Prinzip der Erhaltung der Stromdichte zu beachten, muss der Stromfluss durch die Membran ($A_m I_m$) gleich der Änderung der Stromdichte in den beiden Gebieten sein
+		- $$\begin{align} 
+		  -\nabla \cdot [\sigma_e \nabla \phi_e] &= A_m I_m \\
+		  \nabla\cdot [\sigma_i \nabla \phi_i] &= -\nabla \cdot [\sigma_e \nabla \phi_e] \end{align}$$
+		- **Rohform der Biodomain Gleichung**
+		- $A_m$ Obeflächen-Volumen Verhältnis der Zellmembran
+		- $I_m$ Transmembrandichte pro Flächeneinheit
+			- $$I_m = c_m \frac{\partial V_m}{\partial t} + I_{ION}$$
+			- $c_m$ Kapazität pro Flächeneinheit
+			- $I_{ION}$ Summe alle individueller Ströme über die Membran
+		- ### Erste Biodomain Gleichung
+		- Gleichung $\phi_i = V_m + \phi_e$ ->
+			- $$ \nabla [\sigma_i \nabla V_m ] + \nabla[ \sigma_i \nabla \phi_e]= A_m (\sigma_n \frac{\partial V_m}{\partial t} + I_{ION} V_m)$$
+		- ### Zweite Biodomain Gleichung
+			- $$\nabla \cdot [\sigma_i \nabla V_m] + \nabla \cdot [(\sigma_e + \sigma_i) \nabla \phi_e] = 0$$
+			- Man kann hier noch die Outside als 3. Gleichung formulieren $\nabla(\sigma_o \nabla \phi_o) = 0$
+		- ### Randbedingungen (der Biodomain Gleichungen mit einem externen Körper)
+			- kein Stromfluss zwischen intrazellulären Raum und Körper
+			  logseq.order-list-type:: number
+				- logseq.order-list-type:: number
+				  $$[\sigma_i \nabla \cdot \phi_i] \cdot n^M$$
+				- mit Normalenvektor $n^M$ der Muskeloberfläche $T_M = \partial \Omega^M$
 				  logseq.order-list-type:: number
-					- Transmembranströmung $I_m$ über die Membran zwischen intra- und extrazellulären Raum, in beide Richtungen
-					  logseq.order-list-type:: number
-					- Das außen liegende Gebiet nimmt unter normalen Bedingungen Strom $(I_body)$ aus dem extrazellulären Gebiet auf.
-					  logseq.order-list-type:: number
-				- Kein Stromfluss zwischen interzellulärem Raum und dem Körper
+				- mit $\phi_i = V_m + \phi_e$ folgt
 				  logseq.order-list-type:: number
-			- ### Herleitung der Biodomain Gleichung
-				- Die Biodomain Gleichungen sind ein System von zwei Gleichungen
-					- Die 1. Gleichung ist eine nichtlinear Reaktionsdiffusionsgleichung, die für das Transmembranpotential $V_m$ gelöst wird
-						- Der nichtlineare Aktionsterm ergibt sich aus der Summe der Ionenströme durch die Membran
-					- Die 2. Gleichung beschreibt das extrazelluläre Potential $\phi_e$, welches aus gegebenem $V_m$ resultiert.
-						- Verschieden Lösungsverfahren, parabolisch und nicht, wenn mit gleichem Löser dann wird das eklig
-				-
-	-
+				- logseq.order-list-type:: number
+				  $$[\sigma_i \nabla \cdot V_m] \cdot n^M = - (\sigma_i \nabla \phi_e) \cdot n^M $$ auf $\Gamma^M$
+			- Stromfluss zwischen extrazellulären Bereich und Körper
+			  logseq.order-list-type:: number
+				- logseq.order-list-type:: number
+				  $$(\sigma_e \nabla \phi_e) \cdot n^M = - (\sigma_o \nabla \phi_o) \cdot n^B$$
+				- mit $n^B$ Vektor auf Body (also innen und aussen)
+				  logseq.order-list-type:: number
+			- Um Stetigkeit zu erhalten fordern wir an einem Punkt der Muskeloberfläche
+			  logseq.order-list-type:: number
+				- logseq.order-list-type:: number
+				  $$\phi_e = \phi_o $$ auf $T^M \cap T^B$
+		- #### Fasern
+			- repräsentative Faser MU1
+			- repräsentative faser MU2
+		- ### 3.2.4 Monodomain Gleichung
+			- $\sigma_i = k \cdot \sigma_e \to k = \frac{\sigma_i}{\sigma_e}$
+			- Einsetzen in die 2. Biodomain-Gleichung
+			- $$\nabla \cdot [\sigma_i \nabla V_m] + \nabla \cdot [(1 + \frac{1}{k})\sigma_i \nabla \phi_e] = 0$$
+			- $$\nabla \cdot [\sigma_i \nabla V_m] = - \frac{k+1}{k} \nabla \cdot [\sigma_i \nabla \phi_e]$$
+			- einsetzen in **1. Biodomain Gleichung**
+				- $$  - \frac{k+1}{k} \nabla \cdot [\sigma_i \nabla \phi_e] + \nabla[ \sigma_i \nabla \phi_e]= A_m (\sigma_n \frac{\partial V_m}{\partial t} + I_{ION} V_m)$$
+				- effektive Konduktivität $\sigma_{eff} = \frac{\sigma_i - \sigma_e}{\sigma_i + \sigma_e}$
+				- $$   \nabla \cdot [\sigma_{eff} \nabla \phi_e] = A_m (\sigma_n \frac{\partial V_m}{\partial t} + I_{ION} V_m)$$
+-

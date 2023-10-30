@@ -6,4 +6,5 @@
 - ## Vorlesung
 - [[Introduction Part 1]]
 - [[Physiologische Grundlagen]]
+- [[Muskelfasermodell]]
 -
