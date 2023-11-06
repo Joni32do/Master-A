@@ -1,3 +1,4 @@
+## Material
 - ![Introduction Part 1](C:\Users\jonat\OneDrive - bwedu\stud\master\2\A\Slides\00_Introduction\Part1-FIrst-Lecture-SimTech-MasterA-Roehrle.pdf)
 -
 - ## Prüfung
@@ -5,6 +6,9 @@
 -
 - ## Vorlesung
 - [[Introduction Part 1]]
-- [[Physiologische Grundlagen]]
-- [[Muskelfasermodell]]
+-
+- [[1.1 Physiologische Grundlagen]]
+- [[1.2 Elektrische Signale]]
+- [[1.3 Muskelfasermodell]]
+- [[1.4 Numerik Biodomain]]
 -
