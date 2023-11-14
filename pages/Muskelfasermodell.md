@@ -111,7 +111,7 @@
 			  logseq.order-list-type:: number
 				- Transmembranströmung $I_m$ über die Membran zwischen intra- und extrazellulären Raum, in beide Richtungen
 				  logseq.order-list-type:: number
-				- Das außen liegende Gebiet nimmt unter normalen Bedingungen Strom $(I_body)$ aus dem extrazellulären Gebiet auf.
+				- Das außen liegende Gebiet nimmt unter normalen Bedingungen Strom $(I_{body})$ aus dem extrazellulären Gebiet auf.
 				  logseq.order-list-type:: number
 			- Kein Stromfluss zwischen interzellulärem Raum und dem Körper
 			  logseq.order-list-type:: number
