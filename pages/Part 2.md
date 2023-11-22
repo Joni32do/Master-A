@@ -25,6 +25,7 @@
 	-
 - ## Vorlesungen
 - [[2.1 Rotation]]
+- [[2.2 Modelling of Muscle and Ligaments]]
 -
 -
 - # Prüfung
