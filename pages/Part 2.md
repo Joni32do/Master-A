@@ -1,5 +1,30 @@
 # Introduction
-- ![Intro Slice](C:\Users\jonat\OneDrive - bwedu\stud\master\2\A\Slides\00_Introduction\Part2-BiolCybMech.pdf)
+- ![Part2-BiolCybMech.pdf](../assets/Part2-BiolCybMech_1700032031209_0.pdf) ]
+-
+- ### Motivation
+- #### Examples
+	- Animal Movements, Babies can walk after minutes
+	- Synchronize Movements, Parcour, Sport
+	- Boston Dynamics
+- #### Biomechanical models can help
+	- improve understanding of motor control
+	- inspired robotic controllers and develop prostheses or exoskeletons
+	- real world scenarios (crash-tests, falls, ...)
+	- better computer animation
+- #### Requirements
+	- Muscle
+		- Antagonistic Set
+		- ##### Model of skeletal muscle
+	- Soft Tissue
+	- Skeleton
+	- Neurological-Signals
+		- Control Signal $l_1^{CE}$ with respond $u_j$
+		- ##### Model of low-level motor control
+			- there is also high-level motor control
+	- ![image.png](../assets/image_1700036229724_0.png)
+	-
+- ## Vorlesungen
+- [[2.1 Rotation]]
 -
 -
 - # Prüfung
