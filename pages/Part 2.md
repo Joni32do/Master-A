@@ -1,5 +1,6 @@
 # Introduction
-- ![Part2-BiolCybMech.pdf](../assets/Part2-BiolCybMech_1700032031209_0.pdf) ]
+- ![Part2-BiolCybMech.pdf](../assets/Part2-BiolCybMech_1700032031209_0.pdf)
+-
 -
 - ### Motivation
 - #### Examples
@@ -26,6 +27,8 @@
 - ## Vorlesungen
 - [[2.1 Rotation]]
 - [[2.2 Modelling of Muscle and Ligaments]]
+- [[2.3 Motor Controll - Neurons]]
+-
 -
 -
 - # Prüfung
