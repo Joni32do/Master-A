@@ -24,7 +24,12 @@
 - ### RRE
 -
 - # Prüfung
--
+- Choose 2 approaches CME, SSA, tau-leaping/CLE, RRE
+- You are able to
+	- explaint the principle of your approaches
+	- apply these to small example systems
+	- explain the connections between these approaches
+	- explain assumptions & limitations of these approaches
 - ## Leitfragen
 - Which **modeling approaches** do exist to describe CRNs?
 - On which **assumptions** are these based?
