@@ -2,4 +2,5 @@
 - ![Highham](C:\Users\jonat\OneDrive - bwedu\stud\master\2\A\Slides\03_Chemical_Reactions\Higham2008.pdf)
 - [[3.1 Crashcourse P-Theory and CME]]
 - [[3.2 Chemische Reaktionssysteme]]
+- [[3.3 Stochastischer Simulations Algorithmus]]
 -
