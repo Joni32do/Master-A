@@ -12,7 +12,7 @@ Additional content is provided in `.ipynb` notebooks inside the `workspace` fold
 
 ## Part 2 - Dart Project
 
-Can be found [here](workspace/part2/Dart-Project).
+Is located within the workspace of part 2, see [here](workspace/part_2/Dart-Project).
 
 ### Goal
 
