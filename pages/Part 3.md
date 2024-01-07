@@ -3,4 +3,8 @@
 - [[3.1 Crashcourse P-Theory and CME]]
 - [[3.2 Chemische Reaktionssysteme]]
 - [[3.3 Stochastischer Simulations Algorithmus]]
+- [tauLeaping.ipynb](../assets/tauLeaping_1704624966987_0.ipynb)
+- [ChemicalLangevinEquation.ipynb](../assets/ChemicalLangevinEquation_1704624911878_0.ipynb)
+- [ChemicalMasterEquation.ipynb](../assets/ChemicalMasterEquation_1704624960349_0.ipynb)
+-
 -
