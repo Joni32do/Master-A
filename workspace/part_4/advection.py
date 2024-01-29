@@ -68,7 +68,7 @@ dz = length / num_cells  # discretization length (cm)
 t_start = 0.0
 # make sure to choose a time step that is small enough
 # to satisfy the CFL condition for explicit time integration
-CFL = 0.95
+CFL = 0.5
 dt = dz*CFL/velocity
 t_end = 3.0
 
@@ -80,8 +80,8 @@ output_every_n_steps = 10
 #####################################
 def f(c):
     """Linear advection equation"""
-    # return velocity*c
-    return 0.5*velocity*c*c
+    return velocity*c
+    # return 0.5*velocity*c*c
 
 #####################################
 # numerical flux functions ##########
@@ -139,10 +139,10 @@ def minmod(r):
 schemes = {
     "central": flux_central,
     # "central (superbee)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=superbee),
-    # "central (vanleer)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=vanleer),
+    "central (vanleer)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=vanleer),
     # "central (minmod)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=vanleer),
-    "Lax-Friedrichs": flux_lax_friedrichs,
-    "upwind": flux_upwind,
+    # "Lax-Friedrichs": flux_lax_friedrichs,
+    # "upwind": flux_upwind,
 }
 
 WRITE_PNG_OUTPUT = False
