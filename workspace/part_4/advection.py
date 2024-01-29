@@ -61,7 +61,7 @@ def exact_sol(t, x):
     return sol
 
 # numerical parameters (spatial)
-num_cells = 100 # number of grid cells
+num_cells = 1000 # number of grid cells
 dz = length / num_cells  # discretization length (cm)
 
 # numerical parameters (time)
@@ -73,7 +73,7 @@ dt = dz*CFL/velocity
 t_end = 3.0
 
 # plot params
-output_every_n_steps = 2
+output_every_n_steps = 20
 
 #####################################
 # the physical flux function ########
@@ -136,10 +136,10 @@ def minmod(r):
 #####################################
 # dictionary of names mapping to numerical flux function
 schemes = {
-    "central": flux_central,
-    #"central (superbee)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=superbee),
-    #"central (vanleer)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=vanleer),
-    #"central (minmod)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=vanleer),
+    # "central": flux_central,
+    "central (superbee)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=superbee),
+    "central (vanleer)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=vanleer),
+    "central (minmod)": lambda l, r, ll: flux_central(l, r, ll, flux_limiter=vanleer),
     "Lax-Friedrichs": flux_lax_friedrichs,
     "upwind": flux_upwind,
 }
