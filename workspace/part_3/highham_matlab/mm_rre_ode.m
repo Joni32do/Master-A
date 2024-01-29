@@ -6,3 +6,4 @@ function yprime = mm_rre_ode(t,y,k)
     yprime(3) = k.k1*y(1)*y(2) - (k.k2+k.k3)*y(3);
     yprime(4) = k.k3*y(3);
 end
+
